@@ -116,3 +116,79 @@ MyDDDProject/
 - README.md: Tệp tài liệu hướng dẫn và mô tả dự án.
 ```
 Cấu trúc này cung cấp một nền tảng mạnh mẽ và có tổ chức cho việc phát triển phần mềm dựa trên nguyên tắc DDD. Mỗi lớp và thư mục đều phục vụ một mục đích rõ ràng, giúp việc quản lý mã nguồn trở nên dễ dàng hơn và đảm bảo rằng dự án có thể mở rộng và bảo trì một cách hiệu quả.
+
+## Visual Studio
+## Tạo Solution và các Project
+1. Mở Visual Studio và chọn Create a new project.
+2. Chọn Blank Solution và nhấn Next.
+3. Đặt tên cho Solution (ví dụ: MyDDDProject) và chọn vị trí lưu trữ, sau đó nhấn Create.
+
+## Tạo các Project con
+1. Tạo Project Domain:
+   - Nhấp chuột phải vào Solution, chọn Add > New Project.
+   - Chọn Class Library (.NET Core), đặt tên là MyDDDProject.Domain, và nhấn Create.
+
+2. Tạo Project Infrastructure:
+   - Nhấp chuột phải vào Solution, chọn Add > New Project.
+   - Chọn Class Library (.NET Core), đặt tên là MyDDDProject.Infrastructure, và nhấn Create
+   - 
+3. Tạo Project Application:
+   - Nhấp chuột phải vào Solution, chọn Add > New Project.
+   - Chọn Class Library (.NET Core), đặt tên là MyDDDProject.Application, và nhấn Create.
+   - 
+4. Tạo Project API:
+   - Nhấp chuột phải vào Solution, chọn Add > New Project.
+   - Chọn ASP.NET Core Web Application.
+   - Đặt tên là MyDDDProject.API, chọn API template, và nhấn Create.
+
+## Thêm các Project Test
+ - Chọn xUnit Test Project (.NET Core) cho các Project Test
+
+## Thêm các gói NuGet cần thiết
+```
+Install-Package Microsoft.EntityFrameworkCore
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection
+Install-Package MediatR
+Install-Package xunit
+Install-Package Moq
+```
+
+## Cấu hình Dependency Injection trong Startup.cs
+```
+public class Startup
+{
+    public Startup(IConfiguration configuration)
+    {
+        Configuration = configuration;
+    }
+
+    public IConfiguration Configuration { get; }
+
+    public void ConfigureServices(IServiceCollection services)
+    {
+        services.AddControllers();
+        services.AddAutoMapper(typeof(Startup));
+        
+        // Register services and repositories
+        services.AddScoped<IOrderRepository, OrderRepository>();
+        services.AddScoped<IOrderApplicationService, OrderApplicationService>();
+    }
+
+    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+    {
+        if (env.IsDevelopment())
+        {
+            app.UseDeveloperExceptionPage();
+        }
+
+        app.UseHttpsRedirection();
+        app.UseRouting();
+        app.UseAuthorization();
+        app.UseEndpoints(endpoints =>
+        {
+            endpoints.MapControllers();
+        });
+    }
+}
+```
