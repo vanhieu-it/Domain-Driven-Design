@@ -11,6 +11,8 @@ Domain-Driven Design (DDD) là một phương pháp thiết kế phần mềm t�
 7. Factory (Nhà máy): Thành phần chịu trách nhiệm tạo ra các thực thể và đối tượng giá trị phức tạp.
 
 ### Cấu trúc Thư mục
+Cấu trúc thư mục của một dự án Domain-Driven Design (DDD) thường được tổ chức theo cách giúp tách biệt rõ ràng các phần của miền nghiệp vụ (domain), ứng dụng (application), cơ sở hạ tầng (infrastructure), và các giao diện người dùng hoặc API (interfaces). 
+
 ```
 MyDDDProject/
 ├── src/
@@ -72,7 +74,7 @@ MyDDDProject/
 └── README.md
 ```
 ```
-src: Thư mục chính chứa mã nguồn của ứng dụng.
+## src: Thư mục chính chứa mã nguồn của ứng dụng.
 
  - MyDDDProject.Domain: Chứa tất cả các thành phần liên quan đến miền nghiệp vụ.
     + Entities: Chứa các thực thể (entity) của miền.
@@ -104,10 +106,13 @@ src: Thư mục chính chứa mã nguồn của ứng dụng.
     + DTOs: Chứa các đối tượng truyền dữ liệu riêng cho API.
     + Mappings: Chứa các cấu hình AutoMapper, nếu cần.
     + Startup.cs: Cấu hình ứng dụng.
+
 - tests: Thư mục chứa các dự án kiểm thử (test projects).
     + MyDDDProject.Domain.Tests: Kiểm thử các thành phần miền.
     + MyDDDProject.Infrastructure.Tests: Kiểm thử các thành phần cơ sở hạ tầng.
     + MyDDDProject.Application.Tests: Kiểm thử các thành phần ứng dụng.
     + MyDDDProject.API.Tests: Kiểm thử các thành phần API.
+
 - README.md: Tệp tài liệu hướng dẫn và mô tả dự án.
 ```
+Cấu trúc này cung cấp một nền tảng mạnh mẽ và có tổ chức cho việc phát triển phần mềm dựa trên nguyên tắc DDD. Mỗi lớp và thư mục đều phục vụ một mục đích rõ ràng, giúp việc quản lý mã nguồn trở nên dễ dàng hơn và đảm bảo rằng dự án có thể mở rộng và bảo trì một cách hiệu quả.
