@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Domain_Driven_Design.Infrastructure.Services
 {
-    internal class EmailService
+    public class EmailService
     {
+        public void SendOrderConfirmationEmail(string customerEmail, string orderDetails)
+        {
+            // Implementation for sending email
+        }
     }
+
 }

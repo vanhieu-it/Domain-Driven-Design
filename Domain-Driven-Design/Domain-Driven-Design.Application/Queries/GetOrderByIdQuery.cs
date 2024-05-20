@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Domain_Driven_Design.Application.Queries
 {
-    internal class GetOrderByIdQuery
+    public class GetOrderByIdQuery
     {
+        public Guid OrderId { get; }
+
+        public GetOrderByIdQuery(Guid orderId)
+        {
+            OrderId = orderId;
+        }
     }
+
 }

@@ -52,5 +52,11 @@
     <Compile Include="Queries\GetOrderByIdQuery.cs" />
     <Compile Include="Services\OrderApplicationService.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Domain-Driven-Design.Domain\Domain-Driven-Design.Domain.csproj">
+      <Project>{A71529F8-4350-43EE-AABE-0F7A88772C03}</Project>
+      <Name>Domain-Driven-Design.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
