@@ -116,3 +116,198 @@ MyDDDProject/
 - README.md: Tệp tài liệu hướng dẫn và mô tả dự án.
 ```
 Cấu trúc này cung cấp một nền tảng mạnh mẽ và có tổ chức cho việc phát triển phần mềm dựa trên nguyên tắc DDD. Mỗi lớp và thư mục đều phục vụ một mục đích rõ ràng, giúp việc quản lý mã nguồn trở nên dễ dàng hơn và đảm bảo rằng dự án có thể mở rộng và bảo trì một cách hiệu quả.
+
+## Visual Studio
+## Tạo Solution và các Project
+1. Mở Visual Studio và chọn Create a new project.
+2. Chọn Blank Solution và nhấn Next.
+3. Đặt tên cho Solution (ví dụ: MyDDDProject) và chọn vị trí lưu trữ, sau đó nhấn Create.
+
+## Tạo các Project con
+1. Tạo Project Domain:
+   - Nhấp chuột phải vào Solution, chọn Add > New Project.
+   - Chọn Class Library (.NET Core), đặt tên là MyDDDProject.Domain, và nhấn Create.
+
+2. Tạo Project Infrastructure:
+   - Nhấp chuột phải vào Solution, chọn Add > New Project.
+   - Chọn Class Library (.NET Core), đặt tên là MyDDDProject.Infrastructure, và nhấn Create
+   - 
+3. Tạo Project Application:
+   - Nhấp chuột phải vào Solution, chọn Add > New Project.
+   - Chọn Class Library (.NET Core), đặt tên là MyDDDProject.Application, và nhấn Create.
+   - 
+4. Tạo Project API:
+   - Nhấp chuột phải vào Solution, chọn Add > New Project.
+   - Chọn ASP.NET Core Web Application.
+   - Đặt tên là MyDDDProject.API, chọn API template, và nhấn Create.
+
+## Thêm các Project Test
+ - Chọn xUnit Test Project (.NET Core) cho các Project Test
+
+## Thêm các gói NuGet cần thiết
+```
+Install-Package Microsoft.EntityFrameworkCore
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection
+Install-Package MediatR
+Install-Package xunit
+Install-Package Moq
+```
+
+## Cấu hình Dependency Injection trong Startup.cs
+```
+public class Startup
+{
+    public Startup(IConfiguration configuration)
+    {
+        Configuration = configuration;
+    }
+
+    public IConfiguration Configuration { get; }
+
+    public void ConfigureServices(IServiceCollection services)
+    {
+        services.AddControllers();
+        services.AddAutoMapper(typeof(Startup));
+        
+        // Register services and repositories
+        services.AddScoped<IOrderRepository, OrderRepository>();
+        services.AddScoped<IOrderApplicationService, OrderApplicationService>();
+    }
+
+    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+    {
+        if (env.IsDevelopment())
+        {
+            app.UseDeveloperExceptionPage();
+        }
+
+        app.UseHttpsRedirection();
+        app.UseRouting();
+        app.UseAuthorization();
+        app.UseEndpoints(endpoints =>
+        {
+            endpoints.MapControllers();
+        });
+    }
+}
+```
+# Cấu hình dự án khởi chạy
+- Bước 1: Cấu hình Project
+  - Trong cửa sổ Startup Project, chọn Multiple startup projects.
+  - Đặt hành động cho dự án API (MyDDDProject.API) là Start.
+  - Nhấn OK để lưu cấu hình.
+
+- Bước 2:  Cấu hình Dependency Injection (DI) trong Startup.cs
+```
+public class Startup
+{
+    public Startup(IConfiguration configuration)
+    {
+        Configuration = configuration;
+    }
+
+    public IConfiguration Configuration { get; }
+
+    public void ConfigureServices(IServiceCollection services)
+    {
+        services.AddControllers();
+        services.AddAutoMapper(typeof(Startup));
+        
+        // Register services and repositories
+        services.AddScoped<IOrderRepository, OrderRepository>();
+        services.AddScoped<IOrderApplicationService, OrderApplicationService>();
+        
+        // Add EF Core context
+        services.AddDbContext<ApplicationDbContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+        // Add MediatR
+        services.AddMediatR(typeof(Startup));
+    }
+
+    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+    {
+        if (env.IsDevelopment())
+        {
+            app.UseDeveloperExceptionPage();
+        }
+
+        app.UseHttpsRedirection();
+        app.UseRouting();
+        app.UseAuthorization();
+        app.UseEndpoints(endpoints =>
+        {
+            endpoints.MapControllers();
+        });
+    }
+}
+```
+- Bước 3: Thiết lập kết nối cơ sở dữ liệu
+  
+  Cập nhật appsettings.json trong dự án API để cấu hình chuỗi kết nối cơ sở dữ liệu.
+```
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=MyDDDProjectDb;Trusted_Connection=True;MultipleActiveResultSets=true"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "AllowedHosts": "*"
+}
+```
+- Bước 4: Tạo Migration và cập nhật cơ sở dữ liệu
+
+  ```
+  Add-Migration InitialCreate -Project MyDDDProject.Infrastructure -StartupProject MyDDDProject.API
+  Update-Database -Project MyDDDProject.Infrastructure -StartupProject MyDDDProject.API
+  ```
+
+- Bước 5: Chạy chương trình
+   - Nhấn F5 hoặc Ctrl+F5 trong Visual Studio để chạy dự án.
+   - Trình duyệt mặc định sẽ mở ra và truy cập vào API của bạn. Bạn có thể thử nghiệm các endpoint API như /api/orders/{id}.
+
+- Bước 6: Kiểm tra các Endpoint API
+     - Thêm Swagger vào Startup.cs trong phương thức ConfigureServices:
+  ```
+  public void ConfigureServices(IServiceCollection services)
+  {
+    services.AddControllers();
+    services.AddSwaggerGen(c =>
+    {
+        c.SwaggerDoc("v1", new OpenApiInfo { Title = "MyDDDProject.API", Version = "v1" });
+    });
+    services.AddAutoMapper(typeof(Startup));
+    services.AddScoped<IOrderRepository, OrderRepository>();
+    services.AddScoped<IOrderApplicationService, OrderApplicationService>();
+    services.AddDbContext<ApplicationDbContext>(options =>
+        options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+    services.AddMediatR(typeof(Startup));
+  }
+
+  public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+  {
+    if (env.IsDevelopment())
+    {
+        app.UseDeveloperExceptionPage();
+        app.UseSwagger();
+        app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "MyDDDProject.API v1"));
+    }
+
+    app.UseHttpsRedirection();
+    app.UseRouting();
+    app.UseAuthorization();
+    app.UseEndpoints(endpoints =>
+    {
+        endpoints.MapControllers();
+    });
+  }
+  ```
+Khi chạy ứng dụng, bạn có thể truy cập Swagger UI tại https://localhost:5001/swagger để xem và kiểm tra các endpoint API.
+
+- Bước 7:  Viết và chạy Unit Test (Solution Explorer -> Run Tests.)
