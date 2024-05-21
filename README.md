@@ -146,12 +146,14 @@ Cấu trúc này cung cấp một nền tảng mạnh mẽ và có tổ chức c
 
 ## Thêm các gói NuGet cần thiết
 ```
+Ví dụ:
 Install-Package Microsoft.EntityFrameworkCore
 Install-Package Microsoft.EntityFrameworkCore.SqlServer
 Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection
 Install-Package MediatR
 Install-Package xunit
 Install-Package Moq
+...
 ```
 
 ## Cấu hình Dependency Injection trong Startup.cs
@@ -311,3 +313,11 @@ public class Startup
 Khi chạy ứng dụng, bạn có thể truy cập Swagger UI tại https://localhost:5001/swagger để xem và kiểm tra các endpoint API.
 
 - Bước 7:  Viết và chạy Unit Test (Solution Explorer -> Run Tests.)
+   Tạo Migration và cập nhật cơ sở dữ liệu (nếu cần):
+  ```
+  Ví dụ:
+  Enable-Migrations -ProjectName MyDDDProject.Infrastructure
+  Add-Migration InitialCreate -ProjectName MyDDDProject.Infrastructure
+  Update-Database -ProjectName MyDDDProject.Infrastructure
+  ...
+  ```
