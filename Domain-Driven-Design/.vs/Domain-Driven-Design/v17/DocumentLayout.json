@@ -3,7 +3,47 @@
   "WorkspaceRootPath": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A71529F8-4350-43EE-AABE-0F7A88772C03}|Domain-Driven-Design.Domain\\Domain-Driven-Design.Domain.csproj|C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\domain-driven-design.domain\\aggregates\\orderaggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{62D62368-866C-4EAE-8118-2438590F4B57}|Domain-Driven-Design.API\\Domain-Driven-Design.API.csproj|C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\domain-driven-design.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D62368-866C-4EAE-8118-2438590F4B57}|Domain-Driven-Design.API\\Domain-Driven-Design.API.csproj|solutionrelative:domain-driven-design.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D62368-866C-4EAE-8118-2438590F4B57}|Domain-Driven-Design.API\\Domain-Driven-Design.API.csproj|C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\domain-driven-design.api\\mappings\\orderprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D62368-866C-4EAE-8118-2438590F4B57}|Domain-Driven-Design.API\\Domain-Driven-Design.API.csproj|solutionrelative:domain-driven-design.api\\mappings\\orderprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D62368-866C-4EAE-8118-2438590F4B57}|Domain-Driven-Design.API\\Domain-Driven-Design.API.csproj|C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\domain-driven-design.api\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D62368-866C-4EAE-8118-2438590F4B57}|Domain-Driven-Design.API\\Domain-Driven-Design.API.csproj|solutionrelative:domain-driven-design.api\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D62368-866C-4EAE-8118-2438590F4B57}|Domain-Driven-Design.API\\Domain-Driven-Design.API.csproj|c:\\users\\hieu\\desktop\\domain-driven-design\\domain-driven-design\\domain-driven-design.api\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D62368-866C-4EAE-8118-2438590F4B57}|Domain-Driven-Design.API\\Domain-Driven-Design.API.csproj|solutionrelative:domain-driven-design.api\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D62368-866C-4EAE-8118-2438590F4B57}|Domain-Driven-Design.API\\Domain-Driven-Design.API.csproj|C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\domain-driven-design.api\\viewmodels\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D62368-866C-4EAE-8118-2438590F4B57}|Domain-Driven-Design.API\\Domain-Driven-Design.API.csproj|solutionrelative:domain-driven-design.api\\viewmodels\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D62368-866C-4EAE-8118-2438590F4B57}|Domain-Driven-Design.API\\Domain-Driven-Design.API.csproj|C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\domain-driven-design.api\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D62368-866C-4EAE-8118-2438590F4B57}|Domain-Driven-Design.API\\Domain-Driven-Design.API.csproj|solutionrelative:domain-driven-design.api\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D62368-866C-4EAE-8118-2438590F4B57}|Domain-Driven-Design.API\\Domain-Driven-Design.API.csproj|C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\domain-driven-design.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D62368-866C-4EAE-8118-2438590F4B57}|Domain-Driven-Design.API\\Domain-Driven-Design.API.csproj|solutionrelative:domain-driven-design.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B582A82-E99C-4749-8FC9-0DA3CA6B75D9}|Domain-Driven-Design.Application\\Domain-Driven-Design.Application.csproj|C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\domain-driven-design.application\\interfaces\\iorderapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B582A82-E99C-4749-8FC9-0DA3CA6B75D9}|Domain-Driven-Design.Application\\Domain-Driven-Design.Application.csproj|solutionrelative:domain-driven-design.application\\interfaces\\iorderapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88EEEBF5-B12B-4156-8D80-1767EFE50076}|Domain-Driven-Design.Infrastructure\\Domain-Driven-Design.Infrastructure.csproj|C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\domain-driven-design.infrastructure\\eventstore\\eventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88EEEBF5-B12B-4156-8D80-1767EFE50076}|Domain-Driven-Design.Infrastructure\\Domain-Driven-Design.Infrastructure.csproj|solutionrelative:domain-driven-design.infrastructure\\eventstore\\eventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88EEEBF5-B12B-4156-8D80-1767EFE50076}|Domain-Driven-Design.Infrastructure\\Domain-Driven-Design.Infrastructure.csproj|C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\domain-driven-design.infrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88EEEBF5-B12B-4156-8D80-1767EFE50076}|Domain-Driven-Design.Infrastructure\\Domain-Driven-Design.Infrastructure.csproj|solutionrelative:domain-driven-design.infrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71529F8-4350-43EE-AABE-0F7A88772C03}|Domain-Driven-Design.Domain\\Domain-Driven-Design.Domain.csproj|c:\\users\\hieu\\desktop\\domain-driven-design\\domain-driven-design\\domain-driven-design.domain\\aggregates\\orderaggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A71529F8-4350-43EE-AABE-0F7A88772C03}|Domain-Driven-Design.Domain\\Domain-Driven-Design.Domain.csproj|solutionrelative:domain-driven-design.domain\\aggregates\\orderaggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,20 +67,12 @@
       "RelativeMoniker": "D:0:0:{A71529F8-4350-43EE-AABE-0F7A88772C03}|Domain-Driven-Design.Domain\\Domain-Driven-Design.Domain.csproj|solutionrelative:domain-driven-design.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A71529F8-4350-43EE-AABE-0F7A88772C03}|Domain-Driven-Design.Domain\\Domain-Driven-Design.Domain.csproj|c:\\users\\hieu\\desktop\\domain-driven-design\\domain-driven-design\\domain-driven-design.domain\\events\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A71529F8-4350-43EE-AABE-0F7A88772C03}|Domain-Driven-Design.Domain\\Domain-Driven-Design.Domain.csproj|C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\domain-driven-design.domain\\events\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A71529F8-4350-43EE-AABE-0F7A88772C03}|Domain-Driven-Design.Domain\\Domain-Driven-Design.Domain.csproj|solutionrelative:domain-driven-design.domain\\events\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88EEEBF5-B12B-4156-8D80-1767EFE50076}|Domain-Driven-Design.Infrastructure\\Domain-Driven-Design.Infrastructure.csproj|c:\\users\\hieu\\desktop\\domain-driven-design\\domain-driven-design\\domain-driven-design.infrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88EEEBF5-B12B-4156-8D80-1767EFE50076}|Domain-Driven-Design.Infrastructure\\Domain-Driven-Design.Infrastructure.csproj|solutionrelative:domain-driven-design.infrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B582A82-E99C-4749-8FC9-0DA3CA6B75D9}|Domain-Driven-Design.Application\\Domain-Driven-Design.Application.csproj|C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\domain-driven-design.application\\queries\\getorderbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B582A82-E99C-4749-8FC9-0DA3CA6B75D9}|Domain-Driven-Design.Application\\Domain-Driven-Design.Application.csproj|solutionrelative:domain-driven-design.application\\queries\\getorderbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B582A82-E99C-4749-8FC9-0DA3CA6B75D9}|Domain-Driven-Design.Application\\Domain-Driven-Design.Application.csproj|C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\domain-driven-design.application\\interfaces\\iorderapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B582A82-E99C-4749-8FC9-0DA3CA6B75D9}|Domain-Driven-Design.Application\\Domain-Driven-Design.Application.csproj|solutionrelative:domain-driven-design.application\\interfaces\\iorderapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B582A82-E99C-4749-8FC9-0DA3CA6B75D9}|Domain-Driven-Design.Application\\Domain-Driven-Design.Application.csproj|C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\domain-driven-design.application\\handlers\\createordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,12 +91,8 @@
       "RelativeMoniker": "D:0:0:{5B582A82-E99C-4749-8FC9-0DA3CA6B75D9}|Domain-Driven-Design.Application\\Domain-Driven-Design.Application.csproj|solutionrelative:domain-driven-design.application\\commands\\addorderitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88EEEBF5-B12B-4156-8D80-1767EFE50076}|Domain-Driven-Design.Infrastructure\\Domain-Driven-Design.Infrastructure.csproj|c:\\users\\hieu\\desktop\\domain-driven-design\\domain-driven-design\\domain-driven-design.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{88EEEBF5-B12B-4156-8D80-1767EFE50076}|Domain-Driven-Design.Infrastructure\\Domain-Driven-Design.Infrastructure.csproj|C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\domain-driven-design.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88EEEBF5-B12B-4156-8D80-1767EFE50076}|Domain-Driven-Design.Infrastructure\\Domain-Driven-Design.Infrastructure.csproj|solutionrelative:domain-driven-design.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88EEEBF5-B12B-4156-8D80-1767EFE50076}|Domain-Driven-Design.Infrastructure\\Domain-Driven-Design.Infrastructure.csproj|c:\\users\\hieu\\desktop\\domain-driven-design\\domain-driven-design\\domain-driven-design.infrastructure\\eventstore\\eventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88EEEBF5-B12B-4156-8D80-1767EFE50076}|Domain-Driven-Design.Infrastructure\\Domain-Driven-Design.Infrastructure.csproj|solutionrelative:domain-driven-design.infrastructure\\eventstore\\eventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A71529F8-4350-43EE-AABE-0F7A88772C03}|Domain-Driven-Design.Domain\\Domain-Driven-Design.Domain.csproj|C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\domain-driven-design.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,7 +103,7 @@
       "RelativeMoniker": "D:0:0:{A71529F8-4350-43EE-AABE-0F7A88772C03}|Domain-Driven-Design.Domain\\Domain-Driven-Design.Domain.csproj|solutionrelative:domain-driven-design.domain\\events\\ordercreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88EEEBF5-B12B-4156-8D80-1767EFE50076}|Domain-Driven-Design.Infrastructure\\Domain-Driven-Design.Infrastructure.csproj|c:\\users\\hieu\\desktop\\domain-driven-design\\domain-driven-design\\domain-driven-design.infrastructure\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{88EEEBF5-B12B-4156-8D80-1767EFE50076}|Domain-Driven-Design.Infrastructure\\Domain-Driven-Design.Infrastructure.csproj|C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\domain-driven-design.infrastructure\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88EEEBF5-B12B-4156-8D80-1767EFE50076}|Domain-Driven-Design.Infrastructure\\Domain-Driven-Design.Infrastructure.csproj|solutionrelative:domain-driven-design.infrastructure\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -95,30 +123,6 @@
       "RelativeMoniker": "D:0:0:{A71529F8-4350-43EE-AABE-0F7A88772C03}|Domain-Driven-Design.Domain\\Domain-Driven-Design.Domain.csproj|solutionrelative:domain-driven-design.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62D62368-866C-4EAE-8118-2438590F4B57}|Domain-Driven-Design.API\\Domain-Driven-Design.API.csproj|C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\domain-driven-design.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62D62368-866C-4EAE-8118-2438590F4B57}|Domain-Driven-Design.API\\Domain-Driven-Design.API.csproj|solutionrelative:domain-driven-design.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62D62368-866C-4EAE-8118-2438590F4B57}|Domain-Driven-Design.API\\Domain-Driven-Design.API.csproj|C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\domain-driven-design.api\\mappings\\orderprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62D62368-866C-4EAE-8118-2438590F4B57}|Domain-Driven-Design.API\\Domain-Driven-Design.API.csproj|solutionrelative:domain-driven-design.api\\mappings\\orderprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62D62368-866C-4EAE-8118-2438590F4B57}|Domain-Driven-Design.API\\Domain-Driven-Design.API.csproj|C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\domain-driven-design.api\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62D62368-866C-4EAE-8118-2438590F4B57}|Domain-Driven-Design.API\\Domain-Driven-Design.API.csproj|solutionrelative:domain-driven-design.api\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62D62368-866C-4EAE-8118-2438590F4B57}|Domain-Driven-Design.API\\Domain-Driven-Design.API.csproj|C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\domain-driven-design.api\\viewmodels\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62D62368-866C-4EAE-8118-2438590F4B57}|Domain-Driven-Design.API\\Domain-Driven-Design.API.csproj|solutionrelative:domain-driven-design.api\\viewmodels\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62D62368-866C-4EAE-8118-2438590F4B57}|Domain-Driven-Design.API\\Domain-Driven-Design.API.csproj|C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\domain-driven-design.api\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62D62368-866C-4EAE-8118-2438590F4B57}|Domain-Driven-Design.API\\Domain-Driven-Design.API.csproj|solutionrelative:domain-driven-design.api\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62D62368-866C-4EAE-8118-2438590F4B57}|Domain-Driven-Design.API\\Domain-Driven-Design.API.csproj|C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\domain-driven-design.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62D62368-866C-4EAE-8118-2438590F4B57}|Domain-Driven-Design.API\\Domain-Driven-Design.API.csproj|solutionrelative:domain-driven-design.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B582A82-E99C-4749-8FC9-0DA3CA6B75D9}|Domain-Driven-Design.Application\\Domain-Driven-Design.Application.csproj|C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\domain-driven-design.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B582A82-E99C-4749-8FC9-0DA3CA6B75D9}|Domain-Driven-Design.Application\\Domain-Driven-Design.Application.csproj|solutionrelative:domain-driven-design.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -130,7 +134,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 22,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -138,7 +142,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.API\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "Domain-Driven-Design.API\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.API\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "Domain-Driven-Design.API\\Controllers\\ValuesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T01:57:59.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Domain\\Events\\Event.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.Domain\\Events\\Event.cs",
@@ -146,12 +163,11 @@
               "RelativeToolTip": "Domain-Driven-Design.Domain\\Events\\Event.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T08:25:09.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T08:25:09.033Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 25,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Infrastructure\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.Infrastructure\\Services\\EmailService.cs",
@@ -159,25 +175,24 @@
               "RelativeToolTip": "Domain-Driven-Design.Infrastructure\\Services\\EmailService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T08:18:43.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T08:18:43.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Infrastructure\\Repositories\\OrderRepository.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.Infrastructure\\Repositories\\OrderRepository.cs",
               "ToolTip": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Infrastructure\\Repositories\\OrderRepository.cs",
               "RelativeToolTip": "Domain-Driven-Design.Infrastructure\\Repositories\\OrderRepository.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAIAywBYAAAAAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAWwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T08:18:40.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 8,
               "Title": "EventStore.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Infrastructure\\EventStore\\EventStore.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.Infrastructure\\EventStore\\EventStore.cs",
@@ -190,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Infrastructure\\Persistence\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.Infrastructure\\Persistence\\ApplicationDbContext.cs",
@@ -198,90 +213,89 @@
               "RelativeToolTip": "Domain-Driven-Design.Infrastructure\\Persistence\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T08:17:54.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T08:17:54.715Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 0,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.API\\Startup.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.API\\Startup.cs",
               "ToolTip": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.API\\Startup.cs",
               "RelativeToolTip": "Domain-Driven-Design.API\\Startup.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAoAAAABAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAgwCYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T07:36:49.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 1,
               "Title": "OrderProfile.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.API\\Mappings\\OrderProfile.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.API\\Mappings\\OrderProfile.cs",
               "ToolTip": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.API\\Mappings\\OrderProfile.cs",
               "RelativeToolTip": "Domain-Driven-Design.API\\Mappings\\OrderProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T07:36:33.569Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 2,
               "Title": "OrderDto.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.API\\DTOs\\OrderDto.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.API\\DTOs\\OrderDto.cs",
               "ToolTip": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.API\\DTOs\\OrderDto.cs",
               "RelativeToolTip": "Domain-Driven-Design.API\\DTOs\\OrderDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T07:36:03.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 4,
               "Title": "OrderViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.API\\ViewModels\\OrderViewModel.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.API\\ViewModels\\OrderViewModel.cs",
               "ToolTip": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.API\\ViewModels\\OrderViewModel.cs",
               "RelativeToolTip": "Domain-Driven-Design.API\\ViewModels\\OrderViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T07:35:40.793Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 5,
               "Title": "OrderModel.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.API\\Models\\OrderModel.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.API\\Models\\OrderModel.cs",
               "ToolTip": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.API\\Models\\OrderModel.cs",
               "RelativeToolTip": "Domain-Driven-Design.API\\Models\\OrderModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T07:35:08.183Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 6,
               "Title": "OrdersController.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.API\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.API\\Controllers\\OrdersController.cs",
               "ToolTip": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.API\\Controllers\\OrdersController.cs",
               "RelativeToolTip": "Domain-Driven-Design.API\\Controllers\\OrdersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T07:34:52.421Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "IOrderApplicationService.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Application\\Interfaces\\IOrderApplicationService.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.Application\\Interfaces\\IOrderApplicationService.cs",
@@ -294,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "OrderApplicationService.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Application\\Services\\OrderApplicationService.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.Application\\Services\\OrderApplicationService.cs",
@@ -302,12 +316,11 @@
               "RelativeToolTip": "Domain-Driven-Design.Application\\Services\\OrderApplicationService.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAIA8wBYAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:33:40.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T07:33:40.688Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "GetOrderByIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Application\\Queries\\GetOrderByIdQuery.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.Application\\Queries\\GetOrderByIdQuery.cs",
@@ -315,12 +328,11 @@
               "RelativeToolTip": "Domain-Driven-Design.Application\\Queries\\GetOrderByIdQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:33:16.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T07:33:16.946Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "AddOrderItemCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Application\\Handlers\\AddOrderItemCommandHandler.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.Application\\Handlers\\AddOrderItemCommandHandler.cs",
@@ -328,12 +340,11 @@
               "RelativeToolTip": "Domain-Driven-Design.Application\\Handlers\\AddOrderItemCommandHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:32:45.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T07:32:45.544Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "CreateOrderCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Application\\Handlers\\CreateOrderCommandHandler.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.Application\\Handlers\\CreateOrderCommandHandler.cs",
@@ -341,12 +352,11 @@
               "RelativeToolTip": "Domain-Driven-Design.Application\\Handlers\\CreateOrderCommandHandler.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAIA8wBwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:32:34.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T07:32:34.159Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "OrderDto.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Application\\DTOs\\OrderDto.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.Application\\DTOs\\OrderDto.cs",
@@ -354,12 +364,11 @@
               "RelativeToolTip": "Domain-Driven-Design.Application\\DTOs\\OrderDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:32:13.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T07:32:13.917Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "AddOrderItemCommand.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Application\\Commands\\AddOrderItemCommand.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.Application\\Commands\\AddOrderItemCommand.cs",
@@ -367,12 +376,11 @@
               "RelativeToolTip": "Domain-Driven-Design.Application\\Commands\\AddOrderItemCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:31:50.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T07:31:50.64Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "CreateOrderCommand.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Application\\Commands\\CreateOrderCommand.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.Application\\Commands\\CreateOrderCommand.cs",
@@ -380,12 +388,11 @@
               "RelativeToolTip": "Domain-Driven-Design.Application\\Commands\\CreateOrderCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:31:42.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T07:31:42.856Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "OrderSpecification.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Domain\\Specifications\\OrderSpecification.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.Domain\\Specifications\\OrderSpecification.cs",
@@ -393,12 +400,11 @@
               "RelativeToolTip": "Domain-Driven-Design.Domain\\Specifications\\OrderSpecification.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAhwAkAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:27:44.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T07:27:44.065Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 27,
               "Title": "Money.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Domain\\ValueObjects\\Money.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.Domain\\ValueObjects\\Money.cs",
@@ -406,25 +412,24 @@
               "RelativeToolTip": "Domain-Driven-Design.Domain\\ValueObjects\\Money.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAuwB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:27:04.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T07:27:04.244Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "OrderAggregate.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Domain\\Aggregates\\OrderAggregate.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.Domain\\Aggregates\\OrderAggregate.cs",
               "ToolTip": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Domain\\Aggregates\\OrderAggregate.cs",
               "RelativeToolTip": "Domain-Driven-Design.Domain\\Aggregates\\OrderAggregate.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAhwBMAAAAJAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAhwBAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T07:26:42.319Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Domain\\Services\\OrderService.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.Domain\\Services\\OrderService.cs",
@@ -432,12 +437,11 @@
               "RelativeToolTip": "Domain-Driven-Design.Domain\\Services\\OrderService.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAA7wB4AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:25:58.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T07:25:58.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Domain\\Repositories\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.Domain\\Repositories\\IOrderRepository.cs",
@@ -445,12 +449,11 @@
               "RelativeToolTip": "Domain-Driven-Design.Domain\\Repositories\\IOrderRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAD4vwwAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:25:25.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T07:25:25.826Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 24,
               "Title": "OrderCreatedEvent.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Domain\\Events\\OrderCreatedEvent.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.Domain\\Events\\OrderCreatedEvent.cs",
@@ -458,12 +461,11 @@
               "RelativeToolTip": "Domain-Driven-Design.Domain\\Events\\OrderCreatedEvent.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:24:58.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T07:24:58.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 29,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Domain\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.Domain\\Entities\\Product.cs",
@@ -471,12 +473,11 @@
               "RelativeToolTip": "Domain-Driven-Design.Domain\\Entities\\Product.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:24:03.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T07:24:03.194Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Domain\\Entities\\OrderItem.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.Domain\\Entities\\OrderItem.cs",
@@ -484,12 +485,11 @@
               "RelativeToolTip": "Domain-Driven-Design.Domain\\Entities\\OrderItem.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAA0wBYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:23:50.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T07:23:50.841Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Domain\\Entities\\Order.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.Domain\\Entities\\Order.cs",
@@ -497,12 +497,11 @@
               "RelativeToolTip": "Domain-Driven-Design.Domain\\Entities\\Order.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:23:31.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T07:23:31.686Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Application\\Class1.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.Application\\Class1.cs",
@@ -510,12 +509,11 @@
               "RelativeToolTip": "Domain-Driven-Design.Application\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:18:07.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T07:18:07.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Domain\\Class1.cs",
               "RelativeDocumentMoniker": "Domain-Driven-Design.Domain\\Class1.cs",
@@ -523,8 +521,7 @@
               "RelativeToolTip": "Domain-Driven-Design.Domain\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:17:14.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T07:17:14.448Z"
             }
           ]
         },

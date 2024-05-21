@@ -1,0 +1,2 @@
+C:\Users\Hieu\Desktop\Domain-Driven-Design\Domain-Driven-Design\Domain-Driven-Design.Infrastructure\obj\Debug\Domain-Driven-Design.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Hieu\Desktop\Domain-Driven-Design\Domain-Driven-Design\Domain-Driven-Design.Infrastructure\obj\Debug\Domain-Driven-Design.Infrastructure.csproj.CoreCompileInputs.cache

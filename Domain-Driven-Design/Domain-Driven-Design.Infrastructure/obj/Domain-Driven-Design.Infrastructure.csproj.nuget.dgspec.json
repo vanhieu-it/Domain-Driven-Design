@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Infrastructure\\Domain-Driven-Design.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Domain\\Domain-Driven-Design.Domain.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Domain\\Domain-Driven-Design.Domain.csproj",
+        "projectName": "Domain-Driven-Design.Domain",
+        "projectPath": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Domain\\Domain-Driven-Design.Domain.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Infrastructure\\Domain-Driven-Design.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Infrastructure\\Domain-Driven-Design.Infrastructure.csproj",
+        "projectName": "Domain-Driven-Design.Infrastructure",
+        "projectPath": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Infrastructure\\Domain-Driven-Design.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Hieu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Hieu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Domain\\Domain-Driven-Design.Domain.csproj": {
+                "projectPath": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Domain\\Domain-Driven-Design.Domain.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

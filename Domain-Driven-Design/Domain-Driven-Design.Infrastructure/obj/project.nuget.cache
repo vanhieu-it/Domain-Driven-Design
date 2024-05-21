@@ -1,0 +1,102 @@
+{
+  "version": 2,
+  "dgSpecHash": "jf1he7B36pGowGCWv50HadMQnnODQvcQhv4S3ghHdyo/0wDsEODcN7TTlxqGEi5sjLjy4BkMBYIyYvhVrGpPwA==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Hieu\\Desktop\\Domain-Driven-Design\\Domain-Driven-Design\\Domain-Driven-Design.Infrastructure\\Domain-Driven-Design.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hieu\\.nuget\\packages\\microsoft.entityframeworkcore\\2.2.6\\microsoft.entityframeworkcore.2.2.6.nupkg.sha512",
+    "C:\\Users\\Hieu\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.EntityFrameworkCore.SqlServer (>= 2.2.6)' for '.NETFramework,Version=v4.7.2'. PackageSourceMapping is enabled, the following source(s) were not considered: nuget.org.",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.EntityFrameworkCore.Abstractions (>= 2.2.6)' for '.NETFramework,Version=v4.7.2'. PackageSourceMapping is enabled, the following source(s) were not considered: nuget.org.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Abstractions",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.EntityFrameworkCore.Analyzers (>= 2.2.6)' for '.NETFramework,Version=v4.7.2'. PackageSourceMapping is enabled, the following source(s) were not considered: nuget.org.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Analyzers",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.Extensions.Caching.Memory (>= 2.2.0)' for '.NETFramework,Version=v4.7.2'. PackageSourceMapping is enabled, the following source(s) were not considered: nuget.org.",
+      "libraryId": "Microsoft.Extensions.Caching.Memory",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.Extensions.DependencyInjection (>= 2.2.0)' for '.NETFramework,Version=v4.7.2'. PackageSourceMapping is enabled, the following source(s) were not considered: nuget.org.",
+      "libraryId": "Microsoft.Extensions.DependencyInjection",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.Extensions.Logging (>= 2.2.0)' for '.NETFramework,Version=v4.7.2'. PackageSourceMapping is enabled, the following source(s) were not considered: nuget.org.",
+      "libraryId": "Microsoft.Extensions.Logging",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Remotion.Linq (>= 2.2.0)' for '.NETFramework,Version=v4.7.2'. PackageSourceMapping is enabled, the following source(s) were not considered: nuget.org.",
+      "libraryId": "Remotion.Linq",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'System.Collections.Immutable (>= 1.5.0)' for '.NETFramework,Version=v4.7.2'. PackageSourceMapping is enabled, the following source(s) were not considered: nuget.org.",
+      "libraryId": "System.Collections.Immutable",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'System.Diagnostics.DiagnosticSource (>= 4.5.0)' for '.NETFramework,Version=v4.7.2'. PackageSourceMapping is enabled, the following source(s) were not considered: nuget.org.",
+      "libraryId": "System.Diagnostics.DiagnosticSource",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'System.Interactive.Async (>= 3.2.0)' for '.NETFramework,Version=v4.7.2'. PackageSourceMapping is enabled, the following source(s) were not considered: nuget.org.",
+      "libraryId": "System.Interactive.Async",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    }
+  ]
+}
