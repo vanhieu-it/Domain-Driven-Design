@@ -1,7 +1,8 @@
 # Domain-Driven-Design
+
 Domain-Driven Design (DDD) là một phương pháp thiết kế phần mềm tập trung vào việc mô hình hóa và làm việc với các vấn đề kinh doanh phức tạp thông qua việc sử dụng ngôn ngữ chung (Ubiquitous Language) và mô hình miền (domain models). DDD giúp kết nối sâu sắc giữa các nhà phát triển và chuyên gia lĩnh vực (domain experts).
 
-### Các khái niệm cơ bản trong DDD
+## Các khái niệm cơ bản trong DDD
 1. Entity (Thực thể): Đối tượng có định danh duy nhất (unique identity) và vòng đời riêng.
 2. Value Object (Đối tượng giá trị): Đối tượng không có định danh, chỉ quan tâm đến thuộc tính.
 3. Aggregate (Tập hợp): Một cụm các thực thể và đối tượng giá trị được xử lý như một đơn vị nhất quán duy nhất.
@@ -10,7 +11,7 @@ Domain-Driven Design (DDD) là một phương pháp thiết kế phần mềm t�
 6. Domain Event (Sự kiện miền): Sự kiện quan trọng xảy ra trong miền nghiệp vụ.
 7. Factory (Nhà máy): Thành phần chịu trách nhiệm tạo ra các thực thể và đối tượng giá trị phức tạp.
 
-### Cấu trúc Thư mục
+## Cấu trúc Thư mục
 Cấu trúc thư mục của một dự án Domain-Driven Design (DDD) thường được tổ chức theo cách giúp tách biệt rõ ràng các phần của miền nghiệp vụ (domain), ứng dụng (application), cơ sở hạ tầng (infrastructure), và các giao diện người dùng hoặc API (interfaces). 
 
 ```
